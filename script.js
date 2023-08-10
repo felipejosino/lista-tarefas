@@ -22,6 +22,7 @@ function addTarefa(){
 
 }
 
+//Salvando no localStorege
 function salvarDados(){
     localStorage.setItem("data", listContainer.innerHTML)
 }
