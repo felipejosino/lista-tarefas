@@ -14,9 +14,9 @@
 
 .todo-app{
     width: 100%;
-    max-width: 440px;
+    max-width: 450px;
     background: #fdfdfd;
-    margin: 100px auto 20px;
+    margin: 3rem auto;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
@@ -87,6 +87,7 @@ ul li::before{
 ul li.checked{
     color: #555;
     text-decoration: line-through;
+    font-style: italic;
 }
 
 ul li.checked::before{
