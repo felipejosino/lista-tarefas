@@ -6,7 +6,7 @@ function addTarefa(){
     //Input vazia
     if(inputBox.value === ''){
         alert("Escreva algo...")
-    }
+    }else{
 
     //Criando li depois que adicionar tarefa
     let li = window.document.createElement(`li`)
@@ -19,7 +19,7 @@ function addTarefa(){
 
     inputBox.value = ""
     salvarDados()
-
+    }
 }
 
 //Salvando no localStorege
