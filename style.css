@@ -64,11 +64,12 @@ button{
 
 ul li{
     list-style: none;
-    font-size: 17px;
+    font-size: 1rem;
     padding: 12px 8px 12px 50px;
     user-select: none;
     cursor: pointer;
     position: relative;
+    text-transform: capitalize;
 }
 
 ul li::before{
@@ -100,7 +101,7 @@ ul li span{
     top: 5px;
     width: 40px;
     height: 40px;
-    font-size: 22px;
+    font-size: 1.5rem;
     color: #555;
     line-height: 40px;
     text-align: center;
